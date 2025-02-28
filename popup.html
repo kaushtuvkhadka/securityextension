@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Site Safety Scanner</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div id="popup-wrapper">
+    <header>
+      🛡️ <span>Malware & Phishing Protection</span>
+    </header>
+
+    <!-- Scan Animation -->
+    <div id="scan-animation"></div>
+
+    <!-- Status Information -->
+    <div id="scan-results">
+      <p><strong>Status:</strong> <span id="status">Scanning...</span></p>
+      <p><strong>Ads:</strong> <span id="ads-status">Checking...</span></p>
+      <p><strong>Malware Scan:</strong> <span id="malware-status">In Progress...</span></p>
+    </div>
+
+    <!-- Footer Actions -->
+    <footer>
+      <button id="rescan-btn">🔄 Rescan</button>
+      <button id="close-btn">❌ Close</button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
