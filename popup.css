@@ -13,7 +13,9 @@ body {
   #popup-wrapper {
     padding: 20px;
     border: 2px solid #9180b1;
-    border-radius: 20px;
+    border-radius: 10px;
+    height: 300px;
+    overflow-y: auto;
     box-shadow: 0 0 30px #5a00ff;
   }
   
